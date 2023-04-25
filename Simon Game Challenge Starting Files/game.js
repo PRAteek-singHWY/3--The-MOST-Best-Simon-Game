@@ -31,7 +31,7 @@ sound_OnClick();
 
 
 
-//on clciking the button shows box shadow and then unshadows //
+//on clciking the button shows box shadow and then the box shadow unshadows //
 function on_Click_Flashing() {
     $(".btn").click(function () {
         var currentColor = $(this).attr("id");
@@ -66,7 +66,7 @@ function next_Sequence() {
 
 //game only begins here when Enter key is pressed//
 
-//detecing the keyboard key when it is pressed and initialising and reseting level to 0 and also restaringt game
+//detecing the keyboard key(ENTER key) when it is pressed and initialising and reseting level to 0 and also restaringt game
 $(document).on("keypress",function(event){
     if(event.which === 13){
     count = 1;
